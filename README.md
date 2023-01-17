@@ -8,6 +8,10 @@
 | ----- | ----- |
 |0001-two-sum|[링크](./LeetCode/Easy/0001-two-sum/0001-two-sum.cpp)|
 |0009-palindrome-number|[링크](./LeetCode/Easy/0009-palindrome-number/0009-palindrome-number.cpp)|
+### 🚀 Medium
+| 문제번호 | 링크 |
+| ----- | ----- |
+|0002-add-two-numbers|[링크](./LeetCode/Medium/0002-add-two-numbers/0002-add-two-numbers.cpp)|
 ## 📚 백준
 ### 🚀 Bronze
 | 문제번호 | 링크 |
