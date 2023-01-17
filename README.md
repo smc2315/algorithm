@@ -19,6 +19,7 @@
 |0003-longest-substring-without-repeating-characters|[링크](./LeetCode/Medium/0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.cpp)|
 |0005-longest-palindromic-substring|[링크](./LeetCode/Medium/0005-longest-palindromic-substring/0005-longest-palindromic-substring.cpp)|
 |0007-reverse-integer|[링크](./LeetCode/Medium/0007-reverse-integer/0007-reverse-integer.cpp)|
+|0008-string-to-integer-atoi|[링크](./LeetCode/Medium/0008-string-to-integer-atoi/README.md)|
 ## 📚 백준
 ### 🚀 Bronze
 | 문제번호 | 링크 |
