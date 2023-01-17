@@ -8,6 +8,10 @@
 | ----- | ----- |
 |0001-two-sum|[링크](./LeetCode/Easy/0001-two-sum/0001-two-sum.cpp)|
 |0009-palindrome-number|[링크](./LeetCode/Easy/0009-palindrome-number/0009-palindrome-number.cpp)|
+### 🚀 Hard
+| 문제번호 | 링크 |
+| ----- | ----- |
+|0004-median-of-two-sorted-arrays|[링크](./LeetCode/Hard/0004-median-of-two-sorted-arrays/0004-median-of-two-sorted-arrays.cpp)|
 ### 🚀 Medium
 | 문제번호 | 링크 |
 | ----- | ----- |
