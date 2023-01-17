@@ -12,6 +12,7 @@
 | 문제번호 | 링크 |
 | ----- | ----- |
 |0002-add-two-numbers|[링크](./LeetCode/Medium/0002-add-two-numbers/0002-add-two-numbers.cpp)|
+|0003-longest-substring-without-repeating-characters|[링크](./LeetCode/Medium/0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.cpp)|
 ## 📚 백준
 ### 🚀 Bronze
 | 문제번호 | 링크 |
