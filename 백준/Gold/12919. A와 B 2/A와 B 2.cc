@@ -10,8 +10,7 @@ bool solve(string s) {
 		return true;
 	if (s.length() < S.length())
 		return false;
-	if (m[s])
-		return false;
+
 	string A="",B="";
 	if (s[s.length()-1] == 'A') {
 		A = s;
