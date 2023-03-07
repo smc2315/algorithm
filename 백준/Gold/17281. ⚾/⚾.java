@@ -1,4 +1,3 @@
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -16,19 +15,11 @@ public class Main {
 
     private static void solve() throws IOException {
         input();
-        //test();
         order[3] = 0;
         setOrder(0);
         System.out.println(ans);
     }
-    private static void test(){
-        order = new int[]{4,5,6,0,1,2,3,7,8};
-        for(int i=0;i<9;i++){
-            System.out.print(inning[0][order[i]]+" ");
-        }
-        System.out.println();
-        calculateResult();
-    }
+
 
     private static void setOrder(int cnt) {
         if(cnt == 9){
@@ -47,6 +38,7 @@ public class Main {
                 }
             }
         }
+
     }
 
     private static int calculateResult() {
@@ -65,14 +57,11 @@ public class Main {
                     cur%=9;
                     continue;
                 }
-                roux =  (roux<<tmp) | (1<<(tmp-1));
-                sum+=Integer.bitCount(roux & 0b1111000);
-                roux &= 0b111;
+                roux =  (roux+1)<<tmp;
+                sum+=Integer.bitCount(roux/16);
+                roux%=16;
                 cur++;
                 cur%=9;
-
-
-
 
             }
         }
