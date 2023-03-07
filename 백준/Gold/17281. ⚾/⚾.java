@@ -6,7 +6,7 @@ public class Main {
     static int[][] inning;
     static int[] order = new int[9];
     static boolean[] selected = new boolean[9];
-
+    static final int[] BIT_COUNT_TABLE = {0, 1, 1, 2, 1, 2, 2, 3, 1, 2, 2, 3, 2, 3, 3, 4};
     public static void main(String[] args) throws IOException {
         solve();
     }
@@ -14,23 +14,17 @@ public class Main {
     private static void solve() throws IOException {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         input();
-        //test();
         order[3] = 0;
         selected[3] = true;
         setOrder(1);
         bw.write(Integer.toString(ans));
         bw.flush();
     }
-
-
-
     private static void setOrder(int cnt) {
         if (cnt == 9) {
             ans = Math.max(calculateResult(), ans);
-            // System.out.println(Arrays.toString(order));
             return;
         }
-
         for (int i = 0; i < 9; i++) {
             if (!selected[i]) {
                 selected[i] = true;
@@ -39,7 +33,6 @@ public class Main {
                 selected[i] = false;
             }
         }
-
     }
 
     private static int calculateResult() {
@@ -56,7 +49,7 @@ public class Main {
                     out++;
                 else{
                     roux = (roux + 1) << tmp;
-                    sum += Integer.bitCount(roux / 16);
+                    sum += BIT_COUNT_TABLE[roux >> 4];
                     roux %= 16;
                 }
                 cur=cur+1==9?0:cur+1;
