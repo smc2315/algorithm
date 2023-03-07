@@ -50,7 +50,7 @@ public class Main {
                 else{
                     roux = (roux + 1) << tmp;
                     sum += BIT_COUNT_TABLE[roux >> 4];
-                    roux %= 16;
+                    roux = roux & 15;
                 }
                 cur=cur+1==9?0:cur+1;
 
