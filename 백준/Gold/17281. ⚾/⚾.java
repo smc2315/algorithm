@@ -2,56 +2,80 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 public class Main {
-	static boolean[]visited;
-	static int inning,answer,order[],record[][];
-	static void perm(int depth) {
-		if(depth==10) {
-			play();
-			return;
-		}
-		for(int i=1;i<=9;i++) {
-			if(!visited[i]) {
-				visited[i]=true;
-				order[i]=depth;
-				perm(depth+1);
-				visited[i]=false;
-			}
-		}
-	}
-	static void play() {
-		int score=0,batter=1;
-		for(int i=0;i<inning;i++) {
-			int out=0;
-			int base=0;
-			while(out<3) {
-				int player=record[i][order[batter]];
-				if(player==0)out++;
-				else {
-					base=(base+1)<<player;
-					score+=Integer.bitCount(base/16);
-					base%=16;
-				}
-				batter=batter+1==10?1:batter+1;
-			}
-		}
-		answer=Math.max(answer, score);
-	}
-	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		inning=Integer.parseInt(br.readLine());
-		record=new int[inning][10];
-		for(int i=0;i<inning;i++) {
-			StringTokenizer st = new StringTokenizer(br.readLine());
-			for(int j=1;j<=9;j++) {
-				record[i][j]=Integer.parseInt(st.nextToken());
-			}
-		}
-		answer=0;
-		visited=new boolean[10];
-		order=new int[10];
-		visited[4]=true;
-		order[4]=1;
-		perm(2);
-		System.out.println(answer);
-	}
+    static int N, ans;
+    static int[][] inning;
+    static int[] order = new int[9];
+    static boolean[] selected = new boolean[9];
+
+    public static void main(String[] args) throws IOException {
+        solve();
+    }
+
+    private static void solve() throws IOException {
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        input();
+        //test();
+        order[3] = 0;
+        selected[3] = true;
+        setOrder(1);
+        bw.write(Integer.toString(ans));
+        bw.flush();
+    }
+
+
+
+    private static void setOrder(int cnt) {
+        if (cnt == 9) {
+            ans = Math.max(calculateResult(), ans);
+            // System.out.println(Arrays.toString(order));
+            return;
+        }
+
+        for (int i = 0; i < 9; i++) {
+            if (!selected[i]) {
+                selected[i] = true;
+                order[i] = cnt;
+                setOrder(cnt + 1);
+                selected[i] = false;
+            }
+        }
+
+    }
+
+    private static int calculateResult() {
+        int sum = 0;
+        int cur = 0;
+        for (int i = 0; i < N; i++) {
+            int out = 0;
+            int roux = 0;
+            while (out < 3) {
+
+                int tmp = inning[i][order[cur]];
+
+                if (tmp == 0)
+                    out++;
+                else{
+                    roux = (roux + 1) << tmp;
+                    sum += Integer.bitCount(roux / 16);
+                    roux %= 16;
+                }
+                cur=cur+1==9?0:cur+1;
+
+            }
+        }
+        return sum;
+    }
+
+    private static void input() throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        N = Integer.parseInt(br.readLine());
+        inning = new int[N][9];
+        for (int i = 0; i < N; i++) {
+            StringTokenizer st = new StringTokenizer(br.readLine());
+            for (int j = 0; j < 9; j++) {
+                inning[i][j] = Integer.parseInt(st.nextToken());
+            }
+        }
+
+    }
 }
