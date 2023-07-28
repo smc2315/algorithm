@@ -21,7 +21,7 @@ int main(void){
                
             }
             else if (s[i] == ')') {
-                while (oper.top() != '('&&!oper.empty()) {
+                while (oper.top() != '(') {
                     cout << oper.top();
                     oper.pop();
                 }
