@@ -5,12 +5,7 @@
 
 using namespace std;
 
-
-
-
 int main(void){
-    ios::sync_with_stdio(false);
-    cin.tie(NULL);
 
     stack<char> oper;
     string s;
@@ -54,6 +49,4 @@ int main(void){
         oper.pop();
     }
     return 0;
-
-   
 }
