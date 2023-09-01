@@ -8,14 +8,10 @@ int main() {
  
     while(t--) {
         int a, b, c, p;
-        int cnt = 0;
         
         cin >> a >> b >> c >> p;
 
-        cnt += (!(a % p) ? 1 : 0);
-        cnt += (!(b % p) ? 1 : 0);
-        cnt += (!(c % p) ? 1 : 0);
-        if(cnt >= 2) {
+        if((!(a % p) ? 1 : 0) + (!(b % p) ? 1 : 0) + (!(c % p) ? 1 : 0) >= 2) {
             cout << 1 << endl;
         } 
         else {
