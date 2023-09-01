@@ -3,6 +3,9 @@
 using namespace std;
  
 int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0); cout.tie(0);
+    
     int t;
     cin >> t;
  
@@ -11,12 +14,7 @@ int main() {
         
         cin >> a >> b >> c >> p;
 
-        if((!(a % p) ? 1 : 0) + (!(b % p) ? 1 : 0) + (!(c % p) ? 1 : 0) >= 2) {
-            cout << 1 << endl;
-        } 
-        else {
-            cout << 0 << endl;
-        }
+        cout << ((((a % p) == 0) + ((b % p) == 0) + ((c % p) == 0)) >= 2)<< "\n";
     }
  
     return 0;
