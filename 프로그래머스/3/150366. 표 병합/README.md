@@ -1,6 +1,6 @@
 # [level 3] 표 병합 - 150366 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/150366?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/150366) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 11월 3일 19:23:21
+2023년 11월 3일 19:24:10
 
 ### 문제 설명
 
