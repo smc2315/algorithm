@@ -3,12 +3,12 @@
 ### 🚀 LeetCode
 | 문제번호 | 링크 |
 | ----- | ----- |
-|0088-merge-sorted-array|[링크](./LeetCode/0088-merge-sorted-array/README.md)|
 ### 🚀 Easy
 | 문제번호 | 링크 |
 | ----- | ----- |
 |0001-two-sum|[링크](./LeetCode/Easy/0001-two-sum/README.md)|
 |0009-palindrome-number|[링크](./LeetCode/Easy/0009-palindrome-number/README.md)|
+|0088-merge-sorted-array|[링크](./LeetCode/Easy/0088-merge-sorted-array/README.md)|
 ### 🚀 Hard
 | 문제번호 | 링크 |
 | ----- | ----- |
