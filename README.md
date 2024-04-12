@@ -24,6 +24,7 @@
 |0074-search-a-2d-matrix|[링크](./LeetCode/Medium/0074-search-a-2d-matrix/README.md)|
 |0080-remove-duplicates-from-sorted-array-ii|[링크](./LeetCode/Medium/0080-remove-duplicates-from-sorted-array-ii/README.md)|
 |0147-insertion-sort-list|[링크](./LeetCode/Medium/0147-insertion-sort-list/README.md)|
+|0155-min-stack|[링크](./LeetCode/Medium/0155-min-stack/README.md)|
 |0172-factorial-trailing-zeroes|[링크](./LeetCode/Medium/0172-factorial-trailing-zeroes/0172-factorial-trailing-zeroes.cpp)|
 |0209-minimum-size-subarray-sum|[링크](./LeetCode/Medium/0209-minimum-size-subarray-sum/README.md)|
 ### 🚀 SWEA
