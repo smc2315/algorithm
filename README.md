@@ -20,6 +20,7 @@
 |0005-longest-palindromic-substring|[링크](./LeetCode/Medium/0005-longest-palindromic-substring/README.md)|
 |0007-reverse-integer|[링크](./LeetCode/Medium/0007-reverse-integer/0007-reverse-integer.cpp)|
 |0008-string-to-integer-atoi|[링크](./LeetCode/Medium/0008-string-to-integer-atoi/README.md)|
+|0071-simplify-path|[링크](./LeetCode/Medium/0071-simplify-path/README.md)|
 |0074-search-a-2d-matrix|[링크](./LeetCode/Medium/0074-search-a-2d-matrix/README.md)|
 |0080-remove-duplicates-from-sorted-array-ii|[링크](./LeetCode/Medium/0080-remove-duplicates-from-sorted-array-ii/README.md)|
 |0147-insertion-sort-list|[링크](./LeetCode/Medium/0147-insertion-sort-list/README.md)|
