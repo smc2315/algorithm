@@ -23,6 +23,7 @@
 |0071-simplify-path|[링크](./LeetCode/Medium/0071-simplify-path/README.md)|
 |0074-search-a-2d-matrix|[링크](./LeetCode/Medium/0074-search-a-2d-matrix/README.md)|
 |0080-remove-duplicates-from-sorted-array-ii|[링크](./LeetCode/Medium/0080-remove-duplicates-from-sorted-array-ii/README.md)|
+|0138-copy-list-with-random-pointer|[링크](./LeetCode/Medium/0138-copy-list-with-random-pointer/0138-copy-list-with-random-pointer.cpp)|
 |0147-insertion-sort-list|[링크](./LeetCode/Medium/0147-insertion-sort-list/README.md)|
 |0155-min-stack|[링크](./LeetCode/Medium/0155-min-stack/README.md)|
 |0172-factorial-trailing-zeroes|[링크](./LeetCode/Medium/0172-factorial-trailing-zeroes/0172-factorial-trailing-zeroes.cpp)|
