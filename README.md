@@ -6,6 +6,7 @@
 | ----- | ----- |
 |0001-two-sum|[링크](./LeetCode/Easy/0001-two-sum/README.md)|
 |0009-palindrome-number|[링크](./LeetCode/Easy/0009-palindrome-number/README.md)|
+|0026-remove-duplicates-from-sorted-array|[링크](./LeetCode/Easy/0026-remove-duplicates-from-sorted-array/README.md)|
 |0027-remove-element|[링크](./LeetCode/Easy/0027-remove-element/README.md)|
 |0088-merge-sorted-array|[링크](./LeetCode/Easy/0088-merge-sorted-array/README.md)|
 |0191-number-of-1-bits|[링크](./LeetCode/Easy/0191-number-of-1-bits/README.md)|
