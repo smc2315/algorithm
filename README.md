@@ -16,6 +16,7 @@
 |0191-number-of-1-bits|[링크](./LeetCode/Easy/0191-number-of-1-bits/README.md)|
 |0228-summary-ranges|[링크](./LeetCode/Easy/0228-summary-ranges/README.md)|
 |0383-ransom-note|[링크](./LeetCode/Easy/0383-ransom-note/README.md)|
+|0392-is-subsequence|[링크](./LeetCode/Easy/0392-is-subsequence/0392-is-subsequence.cpp)|
 ### 🚀 Hard
 | 문제번호 | 링크 |
 | ----- | ----- |
