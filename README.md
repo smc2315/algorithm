@@ -12,6 +12,7 @@
 |0125-valid-palindrome|[링크](./LeetCode/Easy/0125-valid-palindrome/README.md)|
 |0169-majority-element|[링크](./LeetCode/Easy/0169-majority-element/README.md)|
 |0191-number-of-1-bits|[링크](./LeetCode/Easy/0191-number-of-1-bits/README.md)|
+|0228-summary-ranges|[링크](./LeetCode/Easy/0228-summary-ranges/README.md)|
 |0383-ransom-note|[링크](./LeetCode/Easy/0383-ransom-note/README.md)|
 ### 🚀 Hard
 | 문제번호 | 링크 |
